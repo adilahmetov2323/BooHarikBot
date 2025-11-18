@@ -4,7 +4,7 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        string token = "ТОКЕН";
+        string token = "";
         var bot = new CreateBot(token);
         await bot.StartAsync();
     }
